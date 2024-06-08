@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+         "name":"unsername",
+         "type":"text",
+         "placeholder":"username",
+         "label":"username"  
+    },
+    {
+        "id":2,
+         "name":"email",
+         "type":"text",
+         "placeholder":"email",
+         "label":"email"  
+    },
+    {
+        "id":3,
+         "name":"age",
+         "type":"text",
+         "placeholder":"age",
+         "label":"age"  
+    },
+    {
+        "id":4,
+         "name":"password",
+         "type":"password",
+         "placeholder":"password",
+         "label":"password"  
+    }
+
+]
