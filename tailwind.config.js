@@ -14,6 +14,12 @@ export default {
       },
       backgroundImage:{
         'img':"url('./src/image/logbg.avif')"
+      },
+      screens:{
+        "mid":"835px"
+      },
+      height:{
+        "417":"417px"
       }
     },
   },
