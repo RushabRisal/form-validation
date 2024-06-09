@@ -4,13 +4,28 @@
 
 @layer base{
     body{
-        background-color: white;
-    }
- 
     
+        background-image: url('./image/logbg.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 @layer components{
         form{
-            background-color: white;
+            background: linear-gradient(
+                20deg, 
+                rgba(255,255,255,0.2),
+                rgba(77, 162, 208, 0.3)
+            );
+        }
+        span{
+            display: none;
+        }
+        input:invalid[focused="true"] ~ span{
+            display: block;
+        }
+        input:invalid[focused="true"]{
+            border: 1px solid red;
         }
 }

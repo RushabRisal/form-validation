@@ -13,7 +13,7 @@ export default {
         '80':'.80'
       },
       backgroundImage:{
-        'img':"url('./src/image/582587-brick.jpg')"
+        'img':"url('./src/image/logbg.avif')"
       }
     },
   },
